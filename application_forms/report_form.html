@@ -1,0 +1,12 @@
+<h1>Node-RED Watson Visual Recognition output</h1>
+    <p>Analyzed image: {{payload}}<br/><img src="{{payload}}" height='100'/></p>
+    <table border='1'>
+        <thead><tr><th>Name</th><th>Score</th></tr></thead>
+        {{#labels}}
+          <tr><td><b>{{label_name}}</b></td><td><i>{{label_score}}</i></td></tr>
+        {{/labels}}
+    </table>
+    <p>{{msg}}</p>
+    <form  action="{{req._parsedUrl.pathname}}">
+        <input type="submit" value="Try again"/>
+    </form>
