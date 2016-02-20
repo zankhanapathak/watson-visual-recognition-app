@@ -16,7 +16,7 @@ Overview :
 
 <b>Step 3 : Click on Node-Red and give a unique name for the application</b>
 
-<img src="images/create-app.png" height="270" width ="500" align="center">
+<img src="images/create-app.png" height="700" width ="700" align="center">
 
 
 Staging will take few minutes 
