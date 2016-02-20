@@ -4,7 +4,7 @@ In this lab we will build a travel advisor application that recognizes the conte
 
 
 Overview :
-<img src="images/Overview.png" height="270" width ="1000" align="center">
+<img src="images/Overview.png" height="200" width ="1000" align="center">
 
 <h4>Step 1 : Sign up / Login to Bluemix - https://console.ng.bluemix.net/</h4>
 
@@ -75,21 +75,21 @@ Click on Application url and Navigate to node red flow editor
 
 
 
-<h4>Step 6 : Create the application flow in Node-REd editor</h4>
+<h4>Step 6 : Create the application flow in Node-RED editor</h4>
 
-6.1 - Drag and drop the Http node from Input section on the left and also get the http response node form output section.
+6.1) - Drag and drop the Http node from Input section on the left and also get the http response node form output section.
 
 <img src="images/appflow-step1.png" height="250" width ="700" align="center">	
 
 
 
-6.2  - Double click on the http input node to configure the get API as shown below and click 'Ok'
+6.2)  - Double click on the http input node to configure the get API as shown below and click 'Ok'
 
 <img src="images/appflow-step2.png" height="270" width ="500" align="center">	
 
 
 
-6.3  - Double click on http response node and provide name for the node.
+6.3)  - Double click on http response node and provide name for the node.
 
 <img src="images/appflow-step3.png" height="270" width ="500" align="center">	
 
@@ -99,18 +99,18 @@ Click the 'Deploy' button on the top right section of the editor to deploy the a
 <img src="images/app-flowstep-deploy.png" height="50" width ="150" align="center">
 
 
-6.4  - Search the 'switch' node and add to the flow editor
+6.4)  - Search the 'switch' node and add to the flow editor
 
 <img src="images/appflow-step4.png" height="270" width ="800" align="center">	
 
 
-Configure the switch node that if no url has been provided then the form is redisplayed
+Configure the switch node that check if no url has been provided then reload the same page (switch nodes are mostly used for if-else cases)
 
 <img src="images/appflow-step5.png" height="500" width ="550" align="center">
 
 
 
-6.5  - Search for 'change' node and add to the flow editor 
+6.5)  - Search for 'change' node and add to the flow editor 
 
 <img src="images/appflow-step6.png" height="270" width ="800" align="center">	
 
@@ -121,7 +121,7 @@ Configure it to parse and pass imageurl from the payload object
 
 
 
-6.6  - Search for 'template' node and add 2 template nodes to the editor - 1- Building homepage and 2- Generate report
+6.6)  - Search for 'template' node and add 2 template nodes to the editor - 1- Building homepage and 2- Generate report
 
 <img src="images/appflow-step8.png" height="270" width ="1000" align="center">
 
@@ -150,13 +150,13 @@ Click the 'Deploy' button on the top right section of the editor to deploy the a
 <img src="images/app-flowstep-deploy.png" height="50" width ="150" align="center">
 
 
-6.7  -  Search for 'Visual Recognition' node and add it to the flow editor and connect it to the Extract Image URL node as shown below
+6.7)  -  Search for 'Visual Recognition' node and add it to the flow editor and connect it to the Extract Image URL node as shown below
 
 <img src="images/appflow-step12.png" height="500" align="center">
 
 
 
-6.8  -  Configure the remaining 'template' node to generate reports - This template node get the result from the 'Visual recognition' node and sends the ouput to the 'HTTP Response' node
+6.8)  -  Configure the remaining 'template' node to generate reports - This template node get the result from the 'Visual recognition' node and sends the ouput to the 'HTTP Response' node
 
 Copy the raw html content from this same data to the template section [Sample HTML Form Content](https://raw.githubusercontent.com/zankhanapathak/watson-visual-recognition-app/master/application_forms/report_form.html).
 
@@ -175,6 +175,6 @@ Click the 'Deploy' button on the top right section of the editor to deploy the a
 
 Now our application is ready to use!!! 
 
-<b>Step 7 :  Run the Application - Go application url and append the /imagerecognition 
+<h4>Step 7 :  Run the Application - Go application url and append the /imagerecognition </h4>
 
 <img src="images/appflow-step15.png" height="50" width ="600" align="center">
