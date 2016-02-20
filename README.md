@@ -1,9 +1,11 @@
-# IBM Interconnect 2016
+# Using Watson Visual Recognition with Node-RED to recognize the content of the image - Step-by-Step Guide
 
-Welcome to IBMInterconnect Watson Lab. In this lab we will build a travel advisor application that recognizes the content of the image which can be used to provide more information about the destination. 
+In this lab we will build a travel advisor application that recognizes the content of the image which can be used to provide more information about the destination. 
 
 
 Overview :
 
 <img src="images/Overview.png" width="1500" align="center">
+
+
 
