@@ -9,11 +9,13 @@ Overview :
 <h4>Step 1 : Sign up / Login to Bluemix - https://console.ng.bluemix.net/</h4>
 
 
+
 <h4>Step 2 : Go to Catalog tab and search for Node-RED service.</h4>
 
 Click on Node-RED to create the application.
 
 <img src="images/node-red-catalog.png" height="270" width ="500" align="center">
+
 
 
 <h4>Step 3 : Click on Node-Red and give a unique name for the application</h4>
@@ -37,29 +39,39 @@ You can verify now that a Node-RED application is created with a Cloudant databa
 
 
 
+
 <h4>Step 4 : Switch to Catalog tab and search for 'Visual Recognition' service</h4>
 
 <img src="images/visularecognition-catalog.png" height="270" width ="500" align="center">
 
 
 
-<b>Step 5 : Create a Visual Recognition service and bind it with Node-RED application created in the above step.</b>
+
+
+<h4>Step 5 : Create a Visual Recognition service and bind it with Node-RED application created in the above step.</h4>
 
 Select the Node-RED application from the dropdown -
 
-<img src="images/create-visualrecognition-service.png" height="550" width ="950" align="center">
+<img src="images/create-visualrecognition-service.png" height="500" width ="950" align="center">
+	
 	
 	
 To bind the Visual Recognition service to the Node-RED application, click 'Restage' to restart the node-red application.
+
 <img src="images/restage-request.png" height="200" width ="450" align="center">
 
 
+
 Your Visual recognition service is now bound to the Node-RED application
+
 <img src="images/app-overview.png" height="350" width ="700" align="center">
 
 
-Click on Application url and Navigate to node red flow editor 
+
+Click on Application url and Navigate to node red flow editor
+
 <img src="images/node-red-editor.png" height="100" width ="300" align="center">	
+
 
 
 
@@ -76,29 +88,37 @@ Click on Application url and Navigate to node red flow editor
 <img src="images/appflow-step2.png" height="270" width ="500" align="center">	
 
 
+
 6.3  - Double click on http response node and provide name for the node.
 
 <img src="images/appflow-step3.png" height="270" width ="500" align="center">	
+
 	
 Click the 'Deploy' button on the top right section of the editor to deploy the application
 
-<img src="images/app-flowstep-deploy.png" height="50" width ="100" align="center">
+<img src="images/app-flowstep-deploy.png" height="50" width ="150" align="center">
 
 
 6.4  - Search the 'switch' node and add to the flow editor
+
 <img src="images/appflow-step4.png" height="270" width ="800" align="center">	
 
 
 Configure the switch node that if no url has been provided then the form is redisplayed
+
 <img src="images/appflow-step5.png" height="500" width ="550" align="center">
 
 
+
 6.5  - Search for 'change' node and add to the flow editor 
+
 <img src="images/appflow-step6.png" height="270" width ="800" align="center">	
+
 
 Configure it to parse and pass imageurl from the payload object
 
 <img src="images/appflow-step7.png" height="500" width ="550" align="center">	
+
 
 
 6.6  - Search for 'template' node and add 2 template nodes to the editor - 1- Building homepage and 2- Generate report
@@ -113,6 +133,7 @@ Copy the raw html content from this same data to the template section [Sample HT
 
 <img src="images/appflow-step9.png" height="550" width ="650" align="center">
 
+
 <img src="images/appflow-step10.png" height="270" width ="400" align="center">
 
 
@@ -126,12 +147,12 @@ To explain the flow- the Get call will pass the imageurl info as payload to the 
 
 Click the 'Deploy' button on the top right section of the editor to deploy the application
 
-<img src="images/app-flowstep-deploy.png" height="50" width ="100" align="center">
+<img src="images/app-flowstep-deploy.png" height="50" width ="150" align="center">
 
 
 6.7  -  Search for 'Visual Recognition' node and add it to the flow editor and connect it to the Extract Image URL node as shown below
 
-<img src="images/appflow-step12.png" height="200" width ="900" align="center">
+<img src="images/appflow-step12.png" height="500" align="center">
 
 
 
@@ -139,7 +160,7 @@ Click the 'Deploy' button on the top right section of the editor to deploy the a
 
 Copy the raw html content from this same data to the template section [Sample HTML Form Content](https://raw.githubusercontent.com/zankhanapathak/watson-visual-recognition-app/master/application_forms/report_form.html).
 
-<img src="images/appflow-step13.png" height="550" width ="650" align="center">
+<img src="images/appflow-step13.png" height="550" width ="500" align="center">
 
 
 Connect the Visual Recognition, Generate Report and HTTP Response nodes as shown below :
@@ -156,4 +177,4 @@ Now our application is ready to use!!!
 
 <b>Step 7 :  Run the Application - Go application url and append the /imagerecognition 
 
-<img src="images/appflow-step15.png" height="200" width ="200" align="center">
+<img src="images/appflow-step15.png" height="50" width ="600" align="center">
