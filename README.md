@@ -69,3 +69,14 @@ Configure the switch node that if no url has been provided then the form is redi
 
 <img src="images/appflow-step7.png" height="270" width ="500" align="center">	
 
+
+6.6  - Search for 'template' node and add 2 template nodes to the editor - 1- Building homepage and 2- Generate report
+
+<img src="images/appflow-step8.png" height="270" width ="500" align="center">
+
+Configure one of the template node which Creates Application Homepage - 
+
+Make sure to change the format to  - HTML from the tiny dropdown on the left
+[Sample HTML Form Content](https://raw.githubusercontent.com/chriwill/interconnect2016/master/flightstradeoffanalytics/data/flightdata.json).
+
+<img src="images/appflow-step9.png" height="270" width ="500" align="center">
