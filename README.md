@@ -5,5 +5,5 @@ Welcome to IBMInterconnect Watson Lab. In this lab we will build a travel adviso
 
 Overview :
 
-<img src="images/overview.png" width="1000" align="center">
+<img src="images/Overview.png" width="1000" align="center">
 
