@@ -131,7 +131,7 @@ Click the 'Deploy' button on the top right section of the editor to deploy the a
 
 6.7  -  Search for 'Visual Recognition' node and add it to the flow editor and connect it to the Extract Image URL node as shown below
 
-<img src="images/appflow-flowstep12.png" height="200" width ="900" align="center">
+<img src="images/appflow-step12.png" height="200" width ="900" align="center">
 
 
 
@@ -139,21 +139,21 @@ Click the 'Deploy' button on the top right section of the editor to deploy the a
 
 Copy the raw html content from this same data to the template section [Sample HTML Form Content](https://raw.githubusercontent.com/zankhanapathak/watson-visual-recognition-app/master/application_forms/report_form.html).
 
-<img src="images/appflow-flowstep13.png" height="550" width ="650" align="center">
+<img src="images/appflow-step13.png" height="550" width ="650" align="center">
 
 
 Connect the Visual Recognition, Generate Report and HTTP Response nodes as shown below :
 
-<img src="images/appflow-flowstep14.png" height="270" width ="700" align="center">
+<img src="images/appflow-step14.png" height="270" width ="700" align="center">
 
 
 Click the 'Deploy' button on the top right section of the editor to deploy the application
 
-<img src="images/app-flowstep-deploy.png" height="50" width ="100" align="center">
+<img src="images/app-flowstep-deploy.png" height="50" width ="150" align="center">
 
 
 Now our application is ready to use!!! 
 
 <b>Step 7 :  Run the Application - Go application url and append the /imagerecognition 
 
-<img src="images/appflow-step15.png" height="50" width ="50" align="center">
+<img src="images/appflow-step15.png" height="200" width ="200" align="center">
