@@ -1,0 +1,10 @@
+<html><head></head><body><h1>Interconnect 2016 Watson Visual Recognition Demo</h1>
+    <h2>Select an image URL</h2>
+    <form action="/imagerecognition">
+        <img src="https://raw.githubusercontent.com/zankhanapathak/watson-visual-recognition-app/master/images/TajMahal.jpg" height="100" style="width: 150;">
+        <img src="https://raw.githubusercontent.com/zankhanapathak/watson-visual-recognition-app/master/images/eiffel-tower.jpg" height="100">
+        <img src="https://raw.githubusercontent.com/zankhanapathak/watson-visual-recognition-app/master/images/golden-gate-sanfrancisco.jpg" height="100" style="width: 150;">
+        <img src="https://raw.githubusercontent.com/zankhanapathak/watson-visual-recognition-app/master/images/statue-of-liberty.jpg" height="100">
+        <br><br><br>Copy above image location URL or enter any image URL:
+        <input type="text" width="504" name="imageurl" style="width: 400;"> <input type="submit" height="50" value="Analyze">
+    </form></body></html>
