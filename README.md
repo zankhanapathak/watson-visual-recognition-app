@@ -5,7 +5,7 @@ In this lab we will build a travel advisor application that recognizes the conte
 
 Overview :
 
-<img src="images/Overview.png" height="300" width ="1000" align="center">
+<img src="images/Overview.png" height="270" width ="1000" align="center">
 
 
 
