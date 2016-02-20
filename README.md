@@ -20,7 +20,7 @@ Click on Node-RED to create the application.
 
 <h4>Step 3 : Click on Node-Red and give a unique name for the application</h4>
 
-<img src="images/create-app.png" height="600" width ="900" align="center">
+<img src="images/create-app.png" height="500" width ="900" align="center">
 
 
 Staging will take few minutes 
