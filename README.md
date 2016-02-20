@@ -47,8 +47,25 @@ Click on Application url and Navigate to node red flow editor
 <img src="images/node-red-editor.png" height="270" width ="500" align="center">	
 
 
-<b>Step 6 : 
+<b>Step 6 : Create the application flow in Node-REd editor</b>
+
+6.1 - Drag and drop the Http node from Input section on the left and also get the http response node form output section.
+<img src="images/appflow-step1.png" height="270" width ="500" align="center">	
+
+6.2  - Double click on the http input node to configure the get API as shown below and click 'Ok'
+<img src="images/appflow-step2.png" height="270" width ="500" align="center">	
+
+6.3  - Double click on http response node and provide name for the node.
+<img src="images/appflow-step3.png" height="270" width ="500" align="center">	
 	
-	
-	
-	
+6.4  - Search the 'switch' node and add to the flow editor
+<img src="images/appflow-step4.png" height="270" width ="500" align="center">	
+
+Configure the switch node that if no url has been provided then the form is redisplayed
+<img src="images/appflow-step5.png" height="270" width ="500" align="center">
+
+6.5  - Search for 'change' node and add to the flow editor and Configure it to parse and pass imageurl from the payload object
+<img src="images/appflow-step6.png" height="270" width ="500" align="center">	
+
+<img src="images/appflow-step7.png" height="270" width ="500" align="center">	
+
