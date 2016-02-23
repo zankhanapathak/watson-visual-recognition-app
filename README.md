@@ -177,7 +177,7 @@ Your application is ready to use!!!
 
 <h4>Step 7 :  Run the Application - Go to your browser and change the URL from the Node-RED application '/red' to '/imagerecognition'.</h4>
 
-<img src="images/appflow-step15.png" height="50" width ="600" align="center">
+<img src="images/appflow-step15.png" height="50" width ="500" align="center">
 
 
 <img src="images/Application-homepage.png" width="850">
@@ -187,6 +187,6 @@ Your application is ready to use!!!
 
 You can download the complete flow file [here](https://raw.githubusercontent.com/chriwill/interconnect2016/master/flightstradeoffanalytics/data/node_red_export.json)  and import it into your Node-RED instance.
 
-<img src="images/NR_Import1.png" align="top" width="250">
-<img src="images/NR_Import2.png" align="top" width="300">
+<img src="images/NR_Import1.png" align="top" width="300">
+<img src="images/NR_Import2.png" align="top" width="400">
 
