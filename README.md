@@ -187,6 +187,6 @@ Your application is ready to use!!!
 
 You can download the complete flow file [here](https://raw.githubusercontent.com/chriwill/interconnect2016/master/flightstradeoffanalytics/data/node_red_export.json)  and import it into your Node-RED instance.
 
-<img src="images/NR_Import1.png" align="top" width="300">
-<img src="images/NR_Import2.png" align="top" width="400">
+<img src="images/NR_Import1.png" align="top" height="250" width="300">
+<img src="images/NR_Import2.png" align="top" height="250" width="400">
 
